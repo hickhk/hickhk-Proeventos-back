@@ -3,7 +3,7 @@ using ProEventos.Domain.Model;
 
 namespace ProEventos.Persistence.Interfaces
 {
-    public interface IEventosPersistence
+    public interface IEventoPersistence
     {
          Task<Evento> GetEventoByIdAsync(int id, bool includePalestrantes);
          Task<Evento[]> GetAllEventosByTemaAsync(string tema, bool includePalestrantes);

@@ -13,10 +13,10 @@ namespace ProEventos.Application
     public class EventoService : IEventoService
     {
         private readonly IGeralPersistence _geralPersistence;
-        private readonly IEventosPersistence _eventosPersistence;
+        private readonly IEventoPersistence _eventosPersistence;
         private readonly IMapper _mapper;
 
-        public EventoService(IGeralPersistence geralPersistence, IEventosPersistence eventosPersistence, IMapper mapper)
+        public EventoService(IGeralPersistence geralPersistence, IEventoPersistence eventosPersistence, IMapper mapper)
         {
             _geralPersistence = geralPersistence;
             _eventosPersistence = eventosPersistence;

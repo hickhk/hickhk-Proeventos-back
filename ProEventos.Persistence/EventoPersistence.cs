@@ -7,11 +7,11 @@ using ProEventos.Persistence.Interfaces;
 
 namespace ProEventos.Persistence
 {
-    public class EventosPersistence : IEventosPersistence
+    public class EventoPersistence : IEventoPersistence
     {
         private readonly ProEventoContext _context;
 
-        public EventosPersistence(ProEventoContext context)
+        public EventoPersistence(ProEventoContext context)
         {
             _context = context;
             //_context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
