@@ -82,7 +82,7 @@ namespace ProEventos_Api.Controllers
                 var evento =  await _eventoService.AddEvento(model);
                 if (evento == null) return NoContent();
 
-                return Ok(new { LoggerMessage = "Cadastrado" });
+                return Ok(new { evento });
             }
             catch (Exception ex)
             {

@@ -30,8 +30,8 @@ namespace ProEventos_Api.Controllers
         }
 
 
-        [HttpGet("{eventoId}")]
-        public async Task<IActionResult> GetAsync(int eventoId)
+        [HttpGet("GetLotesByEventoId/{eventoId}")]
+        public async Task<IActionResult> GetLotesByEventoIdAsync(int eventoId)
         {
             try
             {
@@ -46,8 +46,8 @@ namespace ProEventos_Api.Controllers
             }
         }
 
-        [HttpGet("{eventoId}/{loteId}")]
-        public async Task<IActionResult> GetLoteAsync(int eventoId, int loteId)
+        [HttpGet("GetLoteByEventoIdLoteId/{eventoId}/{loteId}")]
+        public async Task<IActionResult> GetLoteByEventoIdLoteIdAsync(int eventoId, int loteId)
         {
             try
             {
@@ -62,7 +62,7 @@ namespace ProEventos_Api.Controllers
             }
         }
 
-        [HttpPut("{eventoId}")]
+        [HttpPut("SaveLotes/{eventoId}")]
         public async Task<IActionResult> SaveLotes(int eventoId, LoteDto[] models)
         {
             try
