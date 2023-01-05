@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cursos\\Full Stack\\Proeventos\\back\\proeventos-api\\ProEventos-Api.csproj": {}
+    "D:\\cursos\\Full Stack\\Proeventos\\back\\ProEventos-Api\\ProEventos-Api.csproj": {}
   },
   "projects": {
-    "D:\\cursos\\Full Stack\\Proeventos\\back\\proeventos-api\\ProEventos-Api.csproj": {
+    "D:\\cursos\\Full Stack\\Proeventos\\back\\ProEventos-Api\\ProEventos-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cursos\\Full Stack\\Proeventos\\back\\proeventos-api\\ProEventos-Api.csproj",
+        "projectUniqueName": "D:\\cursos\\Full Stack\\Proeventos\\back\\ProEventos-Api\\ProEventos-Api.csproj",
         "projectName": "ProEventos-Api",
-        "projectPath": "D:\\cursos\\Full Stack\\Proeventos\\back\\proeventos-api\\ProEventos-Api.csproj",
+        "projectPath": "D:\\cursos\\Full Stack\\Proeventos\\back\\ProEventos-Api\\ProEventos-Api.csproj",
         "packagesPath": "C:\\Users\\hickh\\.nuget\\packages\\",
-        "outputPath": "D:\\cursos\\Full Stack\\Proeventos\\back\\proeventos-api\\obj\\",
+        "outputPath": "D:\\cursos\\Full Stack\\Proeventos\\back\\ProEventos-Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
